@@ -1,0 +1,110 @@
+﻿@charset "UTF-8";
+
+html {
+	font-size: 18px;
+	text-shadow: 0 1px 1px rgba(255,255,255,.3);
+}
+
+body {
+	padding:0px !important;
+	margin:0px !important;
+	background-color: white;
+	font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+div#content {
+	margin:0px !important;
+}
+
+div#footer {
+	color:#888;
+	font-size:14px;
+}
+
+div.AppPage {
+	background-color: #fff;
+	padding-top:30px;
+	padding-bottom:30px;
+	border-top:1px solid white;
+	border-bottom:1px solid #e3e3e3;
+}
+
+div.AppIcon {
+	padding:30px 0px;
+	box-sizing:border-box;
+	width:40%;
+}
+
+div.AppPage div.AppIcon {
+	float:right;
+}
+
+
+div.intro {
+	box-sizing:border-box;
+	color: #555;
+	font-size: 18px;
+	line-height:1.5;
+	width:60%;
+	padding-left:8%;
+	padding-right:8%;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-top:0px;
+}
+
+div.intro h1 {
+	margin:0px;
+}
+
+div.intro h1 a {
+	color:#333;
+	font-size:1.1em;
+	font-weight:400;
+	text-decoration:none;	
+}
+
+div.AppPage2 div.intro {
+	margin-left:40%;
+}
+
+div.AppPage2 {
+	background-color: #f5f3ec;
+	padding-top:30px;
+	padding-bottom:30px;
+	min-height:300px;
+	border-top:1px solid white;
+	border-bottom:1px solid #e3e3e3;
+}
+
+div.AppPage2 div.AppIcon {
+	float:left;
+}
+
+p.about {
+	font-size: 30px;
+	color: #555;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 50px;
+}
+
+p.contact {
+	font-size: 20px;
+	color: #777;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-decoration:none;
+}
+
+p.contact a {
+	text-decoration:none;
+}
+
+p.downloads {
+	font-size: 20px;
+	color: #333;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 50px;
+}
